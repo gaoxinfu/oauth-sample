@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-resource-server/pom.xml" />
       </list>
     </option>
   </component>
