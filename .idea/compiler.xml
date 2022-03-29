@@ -23,7 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="oauth-sample" options="-parameters" />
-      <module name="oauth-sample-01" options="-parameters" />
+      <module name="oauth-sample-01" options="" />
       <module name="oauth-sample-01-oauth-server" options="" />
       <module name="oauth-sample-01-resource-server" options="" />
     </option>
