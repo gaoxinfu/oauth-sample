@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/oauth-sample.iml" filepath="$PROJECT_DIR$/oauth-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01.iml" filepath="$PROJECT_DIR$/oauth-sample-01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-resource-server/oauth-sample-01-resource-server.iml" filepath="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-resource-server/oauth-sample-01-resource-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/oauth-server.iml" filepath="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/oauth-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ouath-sample.iml" filepath="$PROJECT_DIR$/ouath-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/.mvn/wrapper/wrapper.iml" filepath="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/.mvn/wrapper/wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01/oauth-sample-01.iml" filepath="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/oauth-sample-01-oauth-server.iml" filepath="$PROJECT_DIR$/oauth-sample-01/oauth-sample-01-oauth-server/oauth-sample-01-oauth-server.iml" />
     </modules>
   </component>
 </project>

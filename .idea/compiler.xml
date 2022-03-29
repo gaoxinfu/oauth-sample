@@ -2,32 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oauth-sample-01-resource-server" />
+        <module name="oauth-sample-01-oauth-server" />
         <module name="oauth-sample-01" />
-        <module name="oauth-server" />
-      </profile>
-      <profile name="Annotation profile for Unknown" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="wrapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="oauth-sample" target="1.8" />
       <module name="oauth-sample-01" target="1.8" />
+      <module name="oauth-sample-01-oauth-server" target="1.8" />
       <module name="oauth-sample-01-resource-server" target="1.8" />
-      <module name="oauth-server" target="1.8" />
-      <module name="wrapper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="oauth-sample" options="-parameters" />
       <module name="oauth-sample-01" options="-parameters" />
+      <module name="oauth-sample-01-oauth-server" options="" />
+      <module name="oauth-sample-01-resource-server" options="" />
     </option>
   </component>
 </project>

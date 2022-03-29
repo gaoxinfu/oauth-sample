@@ -6,14 +6,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/token")
 public class TokenController {
     /**
      * 仅仅用于测试返回的code
      * @param code
      * @return
      */
-    @GetMapping("/api/callback")
+    @GetMapping("/token/api/callback")
     public String callback(@RequestParam String code){
         return "oauth code = " +code;
     }
